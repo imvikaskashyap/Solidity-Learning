@@ -4,7 +4,19 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newValue",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +30,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Constructor.sol": "Name"
+			"contracts/Constructor.sol": "ConstructorPro"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +45,11 @@
 	},
 	"sources": {
 		"contracts/Constructor.sol": {
-			"keccak256": "0x8e913ce394b8acae99f9132474b4c4772cbfd7a1b7f0756e7d45d2365a8ea494",
+			"keccak256": "0xad8bfbf25603c1a03076e9b68f7d3b8818dc79f55a9ee2d3ae9e1e78d2c59177",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb1ec0b99cd70c5703e799a983a769356d77f5ce31fda0c113cf23e5ed2fe688",
-				"dweb:/ipfs/QmVQcQHdSVoaxzGcKRSiforXLunGreGm7RAmcktNBTWpTb"
+				"bzz-raw://5b2f2530cbe52d63ba376b0cb65c1096644de8451f55f21d58e7c94dfb5b0284",
+				"dweb:/ipfs/QmWXYUnQQRdAUnjSfsPyQqVzYEAoz14gwikN8NAFaQ3x4W"
 			]
 		}
 	},

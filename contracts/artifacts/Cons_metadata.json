@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Constructor.sol": "Name"
+			"contracts/Constructor.sol": "Cons"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/Constructor.sol": {
-			"keccak256": "0x8e913ce394b8acae99f9132474b4c4772cbfd7a1b7f0756e7d45d2365a8ea494",
+			"keccak256": "0x9b138cd7d21bc4798a54bcbb16fcaa56d30f5e19f8a416f2a34b8fd305a52d09",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb1ec0b99cd70c5703e799a983a769356d77f5ce31fda0c113cf23e5ed2fe688",
-				"dweb:/ipfs/QmVQcQHdSVoaxzGcKRSiforXLunGreGm7RAmcktNBTWpTb"
+				"bzz-raw://d596aaf58b2f0d1dbba18e51be72774388ff1a59d44026cd0e089381bc00c082",
+				"dweb:/ipfs/QmX2oxeKapokWKycBCvUxyXubMkjNFoDFMkmLHjSaT2bzj"
 			]
 		}
 	},
