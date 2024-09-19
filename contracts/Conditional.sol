@@ -11,11 +11,12 @@ contract Conditional {
         num = 100;
     }
 
-    function IfElse(bool value) public returns(uint) {
+    function IfElse(bool value) public returns(string memory) {
         if(value == true){
             num = 200;
-        }else{
-            return 0;
+             return "true";
+        }else {
+            return "false";
         }
     }
     

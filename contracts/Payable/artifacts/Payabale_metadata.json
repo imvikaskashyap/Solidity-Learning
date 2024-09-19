@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "PayableCheck",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkEtherBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					}
+				],
+				"name": "tranferEthertoOtherAddress",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Payable/Payable.sol": "Payabale"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Payable/Payable.sol": {
+			"keccak256": "0xe8334f1ebceb946157bada1df884ac00e11532885d8189147c5d46f30733a5b4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c172283d44d00e92a64911460c58485311ce78bc4c293c07a80367d7fd31c4a3",
+				"dweb:/ipfs/QmWBgeqrDqN25NhSbdb5yTVU8wCisM2gYxSMvts8rrLF9V"
+			]
+		}
+	},
+	"version": 1
+}
