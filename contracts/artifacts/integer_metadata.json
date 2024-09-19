@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "uncheck",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Integer.sol": "integer"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Integer.sol": {
+			"keccak256": "0x9f38683dd786dd829d5ab200a529f0ef1224110649be7b3b1b494cce5bd4ffd0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://70f5265b679dcf2846ca5e84fda779b4244c1678d53e38877d01acbfc99b600d",
+				"dweb:/ipfs/QmU6pp6bGMFjoZdreVo2PDqN35ebzADctWrYnKoi8D8gxw"
+			]
+		}
+	},
+	"version": 1
+}
