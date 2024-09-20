@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Global_Variables/globalVar.sol": "GlobalVariables"
+			"contracts/Twitter-Assignment/twitter.sol": "Name"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Global_Variables/globalVar.sol": {
-			"keccak256": "0x8c72998d897227e7dd536f6742663bfdb78582d40b08ae0586009e5972f4f085",
+		"contracts/Twitter-Assignment/twitter.sol": {
+			"keccak256": "0x511b8204c4e5ca0cd38ec7f84d2da67f1b6678ef713f3928569d236047eec8bb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4b147bd39631cb96f6534348346d0c9bbf12a6107f7473bdb4f8d568128e22c5",
-				"dweb:/ipfs/QmZijRWb1hNpATLr12kFqDvBBtGbbpFLVeyL917TdizfH9"
+				"bzz-raw://5d11321aaebdf0e61330a887d9c1332631a6ef4a915f1ccc1fd63dabfb9dccd7",
+				"dweb:/ipfs/QmduLR5zNV9tfqfpbVmFLbcWwgTWMJcrCZ1M5VousjCxCi"
 			]
 		}
 	},

@@ -1,82 +1,50 @@
 {
 	"compiler": {
-		"version": "0.8.27+commit.40a35a09"
+		"version": "0.5.0+commit.1d4f565a"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
+				"constant": false,
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "index",
-						"type": "uint256"
-					}
-				],
-				"name": "GetNumber",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
 						"name": "index",
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint256",
 						"name": "element",
 						"type": "uint256"
 					}
 				],
 				"name": "InsertElement",
 				"outputs": [],
+				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
+				"constant": false,
 				"inputs": [
 					{
-						"internalType": "uint256",
 						"name": "index",
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint256",
 						"name": "element",
 						"type": "uint256"
 					}
 				],
 				"name": "ReplaceElement",
 				"outputs": [],
+				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "TotalCount",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
+				"constant": true,
 				"inputs": [
 					{
-						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -84,35 +52,61 @@
 				"name": "arr",
 				"outputs": [
 					{
-						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "GetNumber",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "TotalCount",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"contracts/Assignment.sol": "Assignment"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "byzantium",
 		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -122,10 +116,8 @@
 	"sources": {
 		"contracts/Assignment.sol": {
 			"keccak256": "0xd8119669856162a838c3ec43ee828799372da79137f86155bb35e22494679d60",
-			"license": "MIT",
 			"urls": [
-				"bzz-raw://3232d70d5d8a691a6954132a08ad89242f2a3f3fe1b31650bc39636cee643f51",
-				"dweb:/ipfs/Qmd5vRbSyszq5QxDfckGUmKhiY2im2TUQni7o2JW794htu"
+				"bzzr://2bfe62ec9330c40425d2e86d0b97488d831bdc5a9db2643df4d9d3fed9ff3a20"
 			]
 		}
 	},
