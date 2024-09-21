@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "requireCheck",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "valid",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".states/require.sol": "RequireExm"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".states/require.sol": {
+			"keccak256": "0x84baa6adc279b65ad2164ab605c78446b8f520858642234d658d0e7baec2a8d9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0ee9005eb2a086fd0d15abdd19d0b42d55691ea1a4c9f00592ce712b27f29fa9",
+				"dweb:/ipfs/QmbM2r9gTyrKzia5ozT7r7n28Phq1kHgkzkbyaHFihZhKz"
+			]
+		}
+	},
+	"version": 1
+}
