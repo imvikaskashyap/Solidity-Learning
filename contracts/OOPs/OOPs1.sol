@@ -20,6 +20,9 @@ contract anotherContract {
 
     Storage obj = new Storage();
 
+   function returnObj() public view returns (Storage) {
+        return obj;
+   }
    function gettingNum() public view returns (uint) {
         return obj.returnNum();
    }

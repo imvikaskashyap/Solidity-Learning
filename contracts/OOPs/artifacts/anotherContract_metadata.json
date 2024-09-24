@@ -17,6 +17,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnObj",
+				"outputs": [
+					{
+						"internalType": "contract Storage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -47,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/OOPs/OOPs1.sol": {
-			"keccak256": "0xdbbd5420357e9bc538a4a29ec60868b8506d65721b5b166d47fb95cc8bbc35cc",
+			"keccak256": "0x9435a26a61d26fe28b65478aeee058ed88b0c3f8fc48fdb6cf8853402d73c956",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://caea9d393f589a950c3053e770a6c7847267df87156b95ca4926fc4d88a63f15",
-				"dweb:/ipfs/QmNrHEBN27uDMtDVCAjJdPiXzej61FuX4akDM8WpDueJdc"
+				"bzz-raw://259086ddc8c53a71a4af1301c6ba9f70aaa78c1170718b32e79479f489c58bc5",
+				"dweb:/ipfs/QmaiGYHv3rGumKxrZ5fnrYJFMmcq1bSsJqepCohvPaUYGf"
 			]
 		}
 	},
