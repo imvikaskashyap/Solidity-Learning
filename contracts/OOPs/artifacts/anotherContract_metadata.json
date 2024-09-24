@@ -7,14 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "PayableCheck",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "checkEtherBalance",
+				"name": "gettingNum",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -23,19 +16,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "receiver",
-						"type": "address"
-					}
-				],
-				"name": "tranferEthertoOtherAddress",
-				"outputs": [],
-				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -52,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Payable/Payable.sol": "Payabale"
+			"contracts/OOPs/OOPs1.sol": "anotherContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -66,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Payable/Payable.sol": {
-			"keccak256": "0x0c25903aa2afca33eea01beb5223dcea6b4ab60ac6b40e0a2978bcc6ad07bb66",
+		"contracts/OOPs/OOPs1.sol": {
+			"keccak256": "0xdbbd5420357e9bc538a4a29ec60868b8506d65721b5b166d47fb95cc8bbc35cc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bd385786ebc6c51f90be8a2fa0df86a37f5833c026144410c80f66d2a8649517",
-				"dweb:/ipfs/QmUEYAAZy79HfjxFoawccJfwSQGepDx583qpTvCuLm8Tih"
+				"bzz-raw://caea9d393f589a950c3053e770a6c7847267df87156b95ca4926fc4d88a63f15",
+				"dweb:/ipfs/QmNrHEBN27uDMtDVCAjJdPiXzej61FuX4akDM8WpDueJdc"
 			]
 		}
 	},

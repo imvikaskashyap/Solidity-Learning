@@ -1,30 +1,61 @@
 {
 	"compiler": {
-		"version": "0.8.27+commit.40a35a09"
+		"version": "0.5.0+commit.1d4f565a"
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "map",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "key",
+						"type": "uint256"
+					},
+					{
+						"name": "value",
+						"type": "string"
+					}
+				],
+				"name": "insert",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Mapping/NestedMapping.sol": "Mapping"
+			"contracts/Mapping/Mapping.sol": "Mapping"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "byzantium",
 		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -32,12 +63,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Mapping/NestedMapping.sol": {
-			"keccak256": "0xcbe449a6611a77867248909326d5c7bf69760f7fcda3f5346a8a46e5b5ac748d",
-			"license": "MIT",
+		"contracts/Mapping/Mapping.sol": {
+			"keccak256": "0x3d2349be1e63e067e420931dd60efcf1278c256452989bb6067a46931bb74e37",
 			"urls": [
-				"bzz-raw://a357b31df2c271abc109a2a9571fc1d356b0e37bcb50b6884d6c23c3bf2fba61",
-				"dweb:/ipfs/Qme5X87KURELCKor2EntLJpRZudfyT7gChK5Nmykby4qhs"
+				"bzzr://c2bf849d9effbf166ef79f5fc2e90bef84b1696d8f877a592a0b9d6049a71196"
 			]
 		}
 	},

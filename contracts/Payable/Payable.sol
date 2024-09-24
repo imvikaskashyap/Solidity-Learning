@@ -15,4 +15,3 @@ contract Payabale {
        return address(this).balance;
     }
 }
- 
