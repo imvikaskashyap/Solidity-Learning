@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/OOPs/Inheritence.sol": "Name"
+			"contracts/Abstreact/Abstract.sol": "anotherCont"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/OOPs/Inheritence.sol": {
-			"keccak256": "0x7c93ca5337450a59f6f251dca158da75aed6beac422e108fe70550af58e07314",
+		"contracts/Abstreact/Abstract.sol": {
+			"keccak256": "0x04c8367c4f37d67c78fca6bcf72921bbf8833429f460ab418e923016cb49e8c6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9e0c8c25ab9b39da6fc24dcec526128d8995ce9bf03e8e48523ed2d280725785",
-				"dweb:/ipfs/QmdYCs8wABTt6uUacEZ2As3vieD2sGKk9VJJWcnHQ6wdSP"
+				"bzz-raw://2ec9b843881168f1e760652ce384949c6059b743de28f1eb258ed43b2dd51d22",
+				"dweb:/ipfs/Qmd4yPyrckMEHecuz38Xu6qUpcdYY2gBt7iy5pisjRKRhv"
 			]
 		}
 	},
