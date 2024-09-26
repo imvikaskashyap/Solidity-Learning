@@ -6,11 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -47,44 +42,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "div",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "manager",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
-					}
-				],
-				"name": "mul",
+				"name": "sub",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -109,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/OOPs/Calculator.sol": "Calculator"
+			"contracts/Interface/interface.sol": "otherCalc"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -123,12 +81,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/OOPs/Calculator.sol": {
-			"keccak256": "0xfe1cce58d015ea1a146cec1775402b16ecad1d40df248bc5170a7f06f0fa1f8c",
+		"contracts/Interface/interface.sol": {
+			"keccak256": "0x03db22c0c0d1d0343c3a67937e5d71e95b9a7475db881b93ef1f3e4fb3d36af8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ec65acb67c717936a9c3c0002a86b98ba65ab9186df9d5a24074ee67c3d05948",
-				"dweb:/ipfs/QmfJH8d1S3JeKogYGvWCqhyo45K371qmeGeRVSvVUQfPbY"
+				"bzz-raw://459c4ec37d55b023a574a7f520f07993a655c0bd9bbaddf08cec3afb245429f4",
+				"dweb:/ipfs/QmbNeBTD6ZhRxDewheheExuAUs2Dk8Jk4mZSPmWg3iHM2h"
 			]
 		}
 	},

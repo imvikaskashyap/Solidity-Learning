@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Library/calculator.sol": "ca"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Library/calculator.sol": {
+			"keccak256": "0x038ef0a9b0ab22067e854099d0e4c3d9eedcc95d8db03380ede46151fe551165",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://951231b33454b228849f157242cfab85236c9e49ad5ed4dcc6ba731504bbaa26",
+				"dweb:/ipfs/QmdPunsTtjgsiFfoPmLepUNrkfYa995A6V1oC2K2fAQsL1"
+			]
+		}
+	},
+	"version": 1
+}

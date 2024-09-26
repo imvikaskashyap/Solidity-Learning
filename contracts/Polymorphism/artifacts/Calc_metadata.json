@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Polymorphism/polymorphism.sol": "Calc"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Polymorphism/polymorphism.sol": {
+			"keccak256": "0x873cf96e0ddf2b48509ee577c510ed5bb5046e9d2d2b5f78587ea098d6c7a514",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://24fde470e38d590b8a3fca19a0aa7a0bd15124f60257d71046284e5ff79f643d",
+				"dweb:/ipfs/Qmd5hHU3PRpBBDvQ7Qfs427zKpgCP5GDbTSSXkFJZrvdSV"
+			]
+		}
+	},
+	"version": 1
+}

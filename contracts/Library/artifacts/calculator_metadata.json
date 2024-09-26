@@ -6,11 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -23,7 +18,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "add",
+				"name": "adding",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -47,44 +42,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "div",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "manager",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
-					}
-				],
-				"name": "mul",
+				"name": "substracting",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -109,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/OOPs/Calculator.sol": "Calculator"
+			"contracts/Library/calculator.sol": "calculator"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -123,12 +81,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/OOPs/Calculator.sol": {
-			"keccak256": "0xfe1cce58d015ea1a146cec1775402b16ecad1d40df248bc5170a7f06f0fa1f8c",
+		"contracts/Library/SafeMath.sol": {
+			"keccak256": "0xa0921db274955a213ef93a646778f201fbda3903d893550c3fc39db3af28811b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ec65acb67c717936a9c3c0002a86b98ba65ab9186df9d5a24074ee67c3d05948",
-				"dweb:/ipfs/QmfJH8d1S3JeKogYGvWCqhyo45K371qmeGeRVSvVUQfPbY"
+				"bzz-raw://8120c5ae64cc52bd11ff3446c39b5dae94924d41861339529a583ccb495a7c9c",
+				"dweb:/ipfs/QmUPiQbXDtdJeAJweGbUqoLhhY8FjBmq4idEnDrsyfixMU"
+			]
+		},
+		"contracts/Library/calculator.sol": {
+			"keccak256": "0x77adcec1f4909609d929411f80c642e3062bfe8d0902c231f67e41ec64b06702",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1e94579b44b47065169b78ba4ba545cb6725b278dfb2f5366a0f978f0eb29f98",
+				"dweb:/ipfs/QmQfZtK6zpvb3NkH585H3N3CT5Kj7YQGxyURq35Lhmc1d7"
 			]
 		}
 	},
