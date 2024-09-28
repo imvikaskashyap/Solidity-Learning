@@ -128,7 +128,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Abstreact/Abstract.sol": "Calculator"
+			"contracts/Abstract/Abstract.sol": "Calculator"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -142,12 +142,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Abstreact/Abstract.sol": {
-			"keccak256": "0x3262f0efc3bb7672b58cb0dcf15c2d55eecbffacaae5e931193710b8a51dfdd5",
+		"contracts/Abstract/Abstract.sol": {
+			"keccak256": "0x2039d8c7755d6d8a9135c02d419ff6f71940be238f7cf525c188ed9ff3982365",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c565c6756e7c3e13a580ddb26b884140cb4043bd2fbc46dece059002225abc5f",
-				"dweb:/ipfs/QmNVgymSZdAGK4WN21o7PHsaT1dz2XQg4RSn28xgEaKZpv"
+				"bzz-raw://c03c7373223c197d28085cb4f208c064a14c20051c81f4b94a52ed0c97be9c05",
+				"dweb:/ipfs/QmZFRL7TXkoa9V3yUjkL8BsHvB7YdmmJdTZ8z7TRvBK9Mw"
 			]
 		}
 	},

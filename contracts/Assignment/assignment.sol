@@ -20,7 +20,7 @@ contract Assignment {
         _;
     }
 
-    event captureData(address sender, address reciver,uint amount);
+    event captureData(address sender, address reciever,uint amount);
 
     // 2 owner of the contract can send ehter to any of the ETH EOA Account.
 

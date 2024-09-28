@@ -22,7 +22,7 @@
 					{
 						"indexed": false,
 						"internalType": "address",
-						"name": "reciver",
+						"name": "reciever",
 						"type": "address"
 					},
 					{
@@ -135,11 +135,11 @@
 	},
 	"sources": {
 		"contracts/Assignment/assignment.sol": {
-			"keccak256": "0x012e8d423b197a1b5a160e969de1b322d2b6dcb21085177cf1a16237fb18a142",
+			"keccak256": "0xb7ebf9fb286669e5cbc619ea921bf2d3ef227bd70f6bf77a484335a36c02fef6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://de3ee478eb454345513e54eb14765ee55f56f947dc628d8cc9233da79ea4c18e",
-				"dweb:/ipfs/QmYYQYiAgoEc5j7bGqVanAsBy331wMfan7Ea6Bnc9WmEg1"
+				"bzz-raw://3728b11d3bace87a877f843c68c7c4533b714cf59da59434f859d0d00a90a648",
+				"dweb:/ipfs/QmePJ1ujJBbrvVDKt1K1PxL7Yg3SM8FRWHzfc8Z3q2JTSY"
 			]
 		}
 	},

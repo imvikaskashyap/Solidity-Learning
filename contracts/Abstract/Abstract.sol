@@ -3,7 +3,7 @@ pragma solidity >=0.5.0 <0.9.0;
 
 // we use abstract function for internally uses it is not deployable.
 // internally uses means we create a such function that 
-// we don't want to deplot but want to use in many places of a project.
+// we don't want to deploy but want to use in many places of a project.
 // see the openzipplin example for more clarification.
 abstract contract Calculator{
 
