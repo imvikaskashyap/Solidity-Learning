@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Automotive.sol": "Payabale"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Automotive.sol": {
+			"keccak256": "0x01a1f6682a509cc72630adea2412c1560892702a7b13a8ddd1d4d01252e437b8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a8473ba00a64692f97ade132922096084ed3c127a63eac0999a340824fa7769d",
+				"dweb:/ipfs/QmXo1JV2jwWQpMEpwrBV5ZA5SUorpHqWDoNHvfh5YdSnas"
+			]
+		}
+	},
+	"version": 1
+}
