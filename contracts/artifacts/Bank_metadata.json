@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Banking.sol": "Automotive"
+			"contracts/Banking.sol": "Bank"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/Banking.sol": {
-			"keccak256": "0x016fcc303c68daa393cf3f070d09fe2272f6187069245033f5b8c724efa6806c",
+			"keccak256": "0x73e96afa6eaaff6e7ad60ff754e1bce7c06e780e190c66f8d0c6ec8b7e3a9f7a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5f03a67645fb733710cd932c55cc49f48e6157e98a74d635c1858a2f6e138cbf",
-				"dweb:/ipfs/QmNw4RfoMM7eVBrWVGLz4SRpSQnYGD6QyVmrYvnjEXFUG5"
+				"bzz-raw://a4eab045ec395e267b4e7e064af85754f668fe40ffc9ca698d66097597c1c6c7",
+				"dweb:/ipfs/QmNd4S8tYQXN3zjkKr2RQEzuo5ypc6HpkRWEhvrCDe1VA4"
 			]
 		}
 	},
