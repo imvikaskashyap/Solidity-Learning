@@ -164,7 +164,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Banking.sol": "Banking"
+			"contracts/Banking.sol": "Govern"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -179,11 +179,11 @@
 	},
 	"sources": {
 		"contracts/Banking.sol": {
-			"keccak256": "0x865e22d547dc7023e9345a2019bc9f0565af4334ba159f575007c25cce063434",
+			"keccak256": "0x28bfdf6c88ba32d7cac6cae85a7cab8a078fc4b3ade1a969cea0f7dd859ad18e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0bf76bb341af7588709b408bacc6fda0e197dca1a3ec815baad3851732a1bfd5",
-				"dweb:/ipfs/QmRVcAH23wWFFcdiVXj6oYJPB9afWVWm2YyYGXkUGCZfgb"
+				"bzz-raw://f44aa277c8e05db037018154727ecde2595b6b20cd7987af360ef7e9ff4ab008",
+				"dweb:/ipfs/QmQWBYSosojCcy7MPnKjLhWfQmxcEoeLjosxDWf2FPxpQG"
 			]
 		}
 	},
