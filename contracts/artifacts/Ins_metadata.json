@@ -85,7 +85,7 @@
 								"type": "bool"
 							}
 						],
-						"internalType": "struct Government.Law[]",
+						"internalType": "struct Ins.Law[]",
 						"name": "",
 						"type": "tuple[]"
 					}
@@ -311,7 +311,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Insurance.sol": "Government"
+			"contracts/Insurance.sol": "Ins"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -326,11 +326,11 @@
 	},
 	"sources": {
 		"contracts/Insurance.sol": {
-			"keccak256": "0x186ecd45adbcf1d63d79168ba18af5e72d165a152ff78298b141147ae3e7fea4",
+			"keccak256": "0x538ed0b7bd1cd955d74f0304035e85c378a6a29b99c2a7de2c950a04ba5588fb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://470eaf6ef6c3f1998728e6f075e8f3f3d9ff220fa16919f0024b3532966546b3",
-				"dweb:/ipfs/QmaJKe2LRDQcGmwX7RuSWSojap3JdMx9qxakd9Uift1MXv"
+				"bzz-raw://df04671b13d4672e69434d7002475a761f796c734d4c77e4a9b861642982d6d5",
+				"dweb:/ipfs/QmT2qA16fpFcAZ2M24Gpe8b1kkC94bDEstFoacmcc9W9Qy"
 			]
 		}
 	},
