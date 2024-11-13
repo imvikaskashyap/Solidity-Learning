@@ -14,18 +14,18 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "addr",
+						"name": "add",
 						"type": "address"
 					}
 				],
-				"name": "NotAnOwner",
+				"name": "NotOwner",
 				"type": "error"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_id",
+						"name": "i",
 						"type": "uint256"
 					}
 				],
@@ -36,7 +36,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_id",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -44,16 +44,40 @@
 				"type": "error"
 			},
 			{
-				"anonymous": false,
 				"inputs": [
 					{
-						"indexed": false,
 						"internalType": "uint256",
 						"name": "reward",
 						"type": "uint256"
 					}
 				],
-				"name": "TaskComplete",
+				"name": "TransactionFailed",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "TaskCompleted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "WithdrawComplete",
 				"type": "event"
 			},
 			{
@@ -68,7 +92,7 @@
 					{
 						"indexed": false,
 						"internalType": "string",
-						"name": "work",
+						"name": "task",
 						"type": "string"
 					},
 					{
@@ -78,7 +102,7 @@
 						"type": "bool"
 					}
 				],
-				"name": "TaskCreated",
+				"name": "taskCreated",
 				"type": "event"
 			},
 			{
@@ -93,7 +117,7 @@
 					{
 						"indexed": false,
 						"internalType": "string",
-						"name": "work",
+						"name": "task",
 						"type": "string"
 					},
 					{
@@ -103,19 +127,8 @@
 						"type": "bool"
 					}
 				],
-				"name": "TaskStatusChange",
+				"name": "taskToggled",
 				"type": "event"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "TodosCompleted",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
 			},
 			{
 				"inputs": [
@@ -128,19 +141,6 @@
 				"name": "createTask",
 				"outputs": [],
 				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -171,7 +171,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getTasks",
+				"name": "getTask",
 				"outputs": [
 					{
 						"components": [
@@ -195,6 +195,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "revenueWithdrawl",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -205,6 +212,13 @@
 				"name": "setOwner",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "taskCompleted",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -219,17 +233,6 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "withDraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -245,7 +248,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ToDo.sol": "ToDo"
+			"contracts/ToDo2.sol": "ToDo"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -259,12 +262,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ToDo.sol": {
-			"keccak256": "0xc58a99f299e7ac003351c374462b667dddb57697c81fed9b0e5fbf6191a6c1fb",
+		"contracts/ToDo2.sol": {
+			"keccak256": "0xbe416b3595cb1ec23a9925479e9f6412acc160f88336b939a4a4682f3622b716",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://30b70a9d54d97c2188be99af582bbb677c5c7a73e9da5b566cd9bc3beaece13f",
-				"dweb:/ipfs/QmdQqCs7Y6rRfQu1MBfsUc9XuG5AfmcNu9EGcDN1vuqB3m"
+				"bzz-raw://1c4ab8e3977bdd2987ea3bcd076ac3d957750d1dcdde353ecd8774ca9b971746",
+				"dweb:/ipfs/QmfDoUD59Z8Qi3qaJJAWSRGnrM8fV581eNWeAmaBxHbcZC"
 			]
 		}
 	},
